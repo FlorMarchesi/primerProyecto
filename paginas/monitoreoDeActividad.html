@@ -10,19 +10,42 @@
 <body>
   <header>
     <nav>
-      <a href="#"><img src="./assets/logoBannerHenry.png" alt="logo Henry" width="100px"></a>
-      <a href="#">Home</a>
-      <a href="./paginas/generarContrasena.html">Generar Contraseña</a>
-      <a href="./paginas/cajaFuerte.html">Caja Fuerte</a>
-      <a href="./paginas/monitoreoDeActividad.html">Monitoreo de Actividad</a>
-      <a href="./paginas/gestionDeUsuarios.html">Gestión de Usuarios</a>
+      <a href="../index.html"><img src="../assets/logoBannerHenry.png" alt="logo Henry" width="100px"></a>
+      <a href="../index.html">Home</a>
+      <a href="generarContrasena.html">Generar Contraseña</a>
+      <a href="cajaFuerte.html">Caja Fuerte</a>
+      <a href="#">Monitoreo de Actividad</a>
+      <a href="gestionDeUsuarios.html">Gestión de Usuarios</a>
     </nav>
   </header>
   <main>
     <div>
       <h1>Asistente De Seguridad</h1>
-      <p>Generador de contraseñas para usuarios</p>
+      <p>SISTEMA DE MONITOREO DE ACTIVIDAD SOSPECHOSA</p>
     </div>
+    <div>
+      <label for="descripcion">Descripción</label>
+      <input type="text" name="descripcion" id="">
+      <label for="nivelRiesgo">Nivel de riesgo</label>
+      <input type="text" name="nivelRiesgo" id="">
+      <button>AGREGAR ACTIVIDAD</button>
+    </div>
+    <div>
+      <label for="eliminarActSospechosa">Eliminar una actividad sospechosa</label>
+      <input type="text" name="eliminarActSospechosa" id="">
+      <button>ELIMINAR ACTIVIDAD</button>
+    </div>
+    <div>
+      <label for="actNivelRiesgo">Filtra actividades por nivel de riesgo</label>
+      <input type="text" name="actNivelRiesgo" id="">
+      <button>MOSTRAR ACTIVIDADES</button>
+    </div>
+    <div>
+      <label for="reporteAct">Reporte de Actividades</label>
+      <input type="text" name="reporteAct" id="">
+      <button>GENERAR REPORTE</button>
+    </div>
+<!-- Falta output de los input-->
   </main>
 
 </body>
