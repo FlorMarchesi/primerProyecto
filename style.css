@@ -1,0 +1,90 @@
+/* Reset básico del body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* Mejor ponerlo acá para todo el sitio */
+}
+
+/* HEADER */
+header {
+  background-color: #f1f1f1;
+  padding: 1em;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Alinea verticalmente los elementos */
+  padding: 0.5em 1em;
+}
+
+/* Estilos para los enlaces de navegación */
+.headerNavPag a {
+  text-decoration: none;
+  font-size: 1rem;
+  /* Mejor usar unidades relativas */
+  font-weight: bold;
+  color: #000;
+  margin: 0 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 0.5vw;
+  transition: all 0.3s ease;
+  /* Transición suave para el hover */
+}
+
+/* Hover */
+.headerNavPag a:hover {
+  background-color: #000;
+  color: #f1f1f1;
+}
+/*HEADER*/
+
+/*Página HOME*/
+/*Main*/
+
+main{
+ display: flex;
+ padding: 5em;
+}
+
+/*Parte izquierda de texto*/
+.contenido{
+  width: 60vw;
+  align-content: flex-start;
+}
+
+#encabezado{
+  background-color: #f1f1f1;
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+h1{
+  font-size: 60px;
+  margin: 0;
+}
+#tituloColor{
+  background-color: rgb(255, 255, 0);
+  border-radius: 1em;
+  padding: 0em 0.25em;
+}
+
+#subtitulo{
+  font-size: 25px;
+  color: #676767;
+}
+
+/*Imagen Aside*/
+.imagen{
+  width: 40vw;
+  margin: auto;
+}
+
+.imagen img{
+  width: auto;
+  height: 70vh;
+}
+/*Página HOME*/
