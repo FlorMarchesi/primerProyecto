@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #fafafa;
   font-family: sans-serif; /* Mejor ponerlo acá para todo el sitio */
 }
 
@@ -41,13 +42,35 @@ nav {
 }
 /*HEADER*/
 
+/*GENERALES*/
+main{
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ padding: 3em;
+}
+
+h1{
+  font-size: 60px;
+  margin: 0;
+}
+
+/*Subtítulo*/
+
+.pSubtitGeneradorContraseña {
+  background-color: #FFFF00;
+  display: inline-block;
+  padding: 0.75em 3em;
+  border-radius: 1em;
+  margin: 2em 0 2em 0;
+}
+
+/*GENERALES*/
+
 /*Página HOME*/
 /*Main*/
 
-main{
- display: flex;
- padding: 5em;
-}
 
 /*Parte izquierda de texto*/
 .contenido{
@@ -62,12 +85,8 @@ main{
   border-radius: 1em;
 }
 
-h1{
-  font-size: 60px;
-  margin: 0;
-}
 #tituloColor{
-  background-color: rgb(255, 255, 0);
+  background-color: #FFFF00;
   border-radius: 1em;
   padding: 0em 0.25em;
 }
@@ -88,3 +107,32 @@ h1{
   height: 70vh;
 }
 /*Página HOME*/
+
+/*Página Generar contraseña*/
+
+.divFormGC{
+  background-color: #ffffff;
+  width: 100vw;
+}
+
+.divFormGC div{
+  padding: 0.75em 0;
+}
+
+.divFormGC input{
+  width: 2em;
+}
+
+.divFormGC button{
+  background-color: #000;
+  color: #f1f1f1;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+}
+
+/*Página Generar contraseña*/
+
+/*Página Caja Fuerte*/
+
+/*Página Caja Fuerte*/
+
