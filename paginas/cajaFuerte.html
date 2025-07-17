@@ -26,28 +26,31 @@
   <main>
     <div>
       <h1>Asistente De Seguridad</h1>
-      <p class="pSubtitGeneradorContraseña">CAJA FUERTE</p>
+      <p class="pSubtit">CAJA FUERTE</p>
     </div>
     <div>
     <div>
-      <form action="">
-        <div>
-          <label for="codSecreto">Código Secreto</label>
-          <input type="text" name="codSecreto" id="">
+      <form class="divForm" action="">
+        <div class="divFormPrimero">
+          <div>
+            <label for="codSecreto">Código Secreto</label>
+            <input type="text" name="codSecreto" id="">
+          </div>
+          <div>
+            <label for="intentos">Cantidad de intentos</label>
+            <input type="number" name="intentos" id="">
+          </div>
+          <button>GUARDAR</button>
         </div>
-        <div>
-          <label for="intentos">Cantidad de intentos</label>
-          <input type="number" name="intentos" id="">
-        </div>
-        <button>GUARDAR</button>
-      </div>
-        <div>
-          <label for="validarCod">Validar Código Secreto</label>
-          <input type="text" name="validarCod" id="">
-        </div>
-        <div>
-          <button>VALIDAR CÓDIGO</button>
-          <button>RESET</button>
+        <div class="divFormSegundo">
+          <div>
+            <label for="validarCod">Validar Código Secreto</label>
+            <input type="text" name="validarCod" id="">
+          </div>
+          <div>
+            <button>VALIDAR CÓDIGO</button>
+            <button>RESET</button>
+          </div>
         </div>
       </form>
     </div>

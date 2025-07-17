@@ -44,11 +44,11 @@ nav {
 
 /*GENERALES*/
 main{
- display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
- padding: 3em;
+  padding: 3em;
 }
 
 h1{
@@ -58,7 +58,7 @@ h1{
 
 /*Subtítulo*/
 
-.pSubtitGeneradorContraseña {
+.pSubtit {
   background-color: #FFFF00;
   display: inline-block;
   padding: 0.75em 3em;
@@ -73,7 +73,11 @@ h1{
 
 
 /*Parte izquierda de texto*/
-.contenido{
+.mainIndex{
+  flex-direction: row;
+  text-align: start;
+}
+.mainIndexContenido{
   width: 60vw;
   align-content: flex-start;
 }
@@ -108,31 +112,41 @@ h1{
 }
 /*Página HOME*/
 
-/*Página Generar contraseña*/
+/*Formularios de todas las páginas*/
 
-.divFormGC{
+.divForm{
   background-color: #ffffff;
-  width: 100vw;
+  width: 70vw;
 }
 
-.divFormGC div{
-  padding: 0.75em 0;
+.divForm div{
+  padding: 0.5em 0;
 }
 
-.divFormGC input{
+.divForm input{
   width: 2em;
 }
 
-.divFormGC button{
+.divForm button{
   background-color: #000;
   color: #f1f1f1;
   border-radius: 0.5em;
   padding: 0.5em 1em;
+  margin: 1em 0;
 }
 
-/*Página Generar contraseña*/
+/*Formularios de todas las páginas*/
 
 /*Página Caja Fuerte*/
 
+.divFormPrimero{
+  display: flex;
+  justify-content: center;
+}
+
+.divForm input{
+  width: 5em;
+  margin: 0 1em;
+}
 /*Página Caja Fuerte*/
 
