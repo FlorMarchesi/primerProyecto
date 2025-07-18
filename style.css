@@ -36,10 +36,11 @@ nav {
 }
 
 /* Hover */
-.headerNavPag a:hover {
+.headerNavPag a:hover, .headerNavPag a.active{
   background-color: #000;
   color: #f1f1f1;
 }
+
 /*HEADER*/
 
 /*GENERALES*/
